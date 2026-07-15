@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+    background:linear-gradient(135deg,#667eea,#764ba2,#ff758c);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.container{
+
+    width:480px;
+    background:rgba(255,255,255,0.95);
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.25);
+
+}
+
+
+h1{
+
+    text-align:center;
+    font-size:32px;
+    margin-bottom:25px;
+    color:#6a11cb;
+
+}
+
+
+.input-box{
+
+    background:#f8f9ff;
+    padding:15px;
+    border-radius:15px;
+    margin-bottom:20px;
+
+}
+
+
+
+input{
+
+    width:100%;
+    padding:14px;
+    margin:8px 0;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:#ffffff;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    font-size:15px;
+
+}
+
+
+
+button{
+
+    border:none;
+    padding:12px 18px;
+    border-radius:25px;
+    cursor:pointer;
+    color:white;
+    font-weight:bold;
+    margin:5px;
+    transition:0.3s;
+
+}
+
+
+
+.input-box button{
+
+    width:100%;
+    background:linear-gradient(45deg,#ff512f,#dd2476);
+
+}
+
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+.filters{
+
+    text-align:center;
+    margin:15px 0;
+
+}
+
+
+
+.filters button:nth-child(1){
+
+    background:#3498db;
+
+}
+
+
+.filters button:nth-child(2){
+
+    background:#2ecc71;
+
+}
+
+
+.filters button:nth-child(3){
+
+    background:#f39c12;
+
+}
+
+
+
+.task{
+
+    background:linear-gradient(135deg,#fff,#f3f3ff);
+    padding:18px;
+    margin-top:15px;
+    border-radius:18px;
+    border-left:7px solid #6a11cb;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+
+.task h3{
+
+    color:#333;
+    margin-bottom:10px;
+
+}
+
+
+
+.task p{
+
+    color:#555;
+    margin:5px 0;
+
+}
+
+
+
+.task button:nth-last-child(3){
+
+    background:#2ecc71;
+
+}
+
+
+.task button:nth-last-child(2){
+
+    background:#3498db;
+
+}
+
+
+.task button:last-child{
+
+    background:#e74c3c;
+
+}
+
+
+
+.completed{
+
+    text-decoration:line-through;
+    color:#27ae60 !important;
+
+}
+
+
+
+.date{
+
+    color:#8e44ad !important;
+    font-weight:bold;
+
+}
+
+
+
+@media(max-width:520px){
+
+    .container{
+
+        width:90%;
+
+    }
+
+}
