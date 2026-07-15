@@ -63,11 +63,12 @@ SCT_WD_4
 
 ## Screenshot
 
-(Add your project screenshot here)
+<img width="1749" height="858" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/d63b919e-e7cc-405a-9fc4-e1c21f33191b" />
+
 
 ## Live Demo
 
-(Add your GitHub Pages link here)
+https://24eg105r33-wq.github.io/SCT_WD_4/
 
 ## Author
 
